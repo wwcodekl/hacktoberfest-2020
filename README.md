@@ -72,7 +72,8 @@ Want to try making a Pull Request just to get used to it? You can do it right he
 
 ## Projects
 - [Malaya](https://github.com/huseinzol05/Malaya)
-- [Healthcare ASEAN]((https://github.com/DataKind-SG/healthcare_ASEAN))
+- [Healthcare ASEAN](https://github.com/DataKind-SG/healthcare_ASEAN)
+- [The IO Foundation - Project Lockdown](https://github.com/TheIOFoundation/ProjectLockdown)
 <!-- Add a new project: 
 - [insert title here](insert link here) 
 -->
