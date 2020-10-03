@@ -1,8 +1,22 @@
 # Overview
 
-This project serves as a guide for people who want to try their hand at making a pull request on GitHub.
+This project serves as a guide for people who want to try their hand at making a pull request on GitHub and also a collection of projects and resources of interest.
 
 In conjuction with Hacktoberfest 2020 organised by Digital Ocean.
+
+Table of Contents
+- What is Git and Github?
+    - Explore on GitHub
+- Contribution workflow
+    - What you need
+    - The easy way
+    - The regular way
+    - Conflicts!!
+- Final notes
+- Contribute to this project
+- Collection
+    - Projects
+    - Resources
 
 # What is Git and GitHub?
 
@@ -22,7 +36,7 @@ The Explore tab is where you can find all the happening stuff - you can check ou
 
 Some repositories are tagged with **topics** to attract first-time contributors and seasoned gurus alike.
 
-Some popular topics are [`hacktoberfest`](https://github.com/topics/hacktoberfest), [`good-first-issue`](https://github.com/topics/good-first-issue), [`contributions-welcome`](https://github.com/topics/contributions-welcome), [`up-for-grabs`](https://github.com/topics/up-for-grabs), [`first-timers`](https://github.com/topics/first-timers)
+Some popular topics are [`hacktoberfest`](https://github.com/topics/hacktoberfest), [`good-first-issue`](https://github.com/topics/good-first-issue), [`contributions-welcome`](https://github.com/topics/contributions-welcome), [`up-for-grabs`](https://github.com/topics/up-for-grabs), and [`first-timers`](https://github.com/topics/first-timers).
 
 On a repository you will see an "Issues" tab, where there are a list of items that people have added which could be a bug to fix, a feature to add, a performance improvement, anything!
 
@@ -224,10 +238,10 @@ The syntax shown is like this:
 
 ```js
 <<<<<<< master
-// this current changes
+// these are current changes
 var breakfastTitle = 'nasi-lemak'; 
 =======
-// this is incoming changes
+// these are incoming changes
 var breakfastLabel = 'roti-canai';
 >>>>>>> master
 
@@ -255,9 +269,11 @@ The world of open source awaits ✨
 
 # Contribute to this project
 
-If you could help populate the two sections below, that would be awesome :)
+If you could help contribute to our collection below, that would be awesome :)
 
 ---
+
+# Collection
 
 ## Projects
 A curated list of projects to contribute to
