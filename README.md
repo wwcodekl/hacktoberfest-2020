@@ -66,16 +66,36 @@ For code, that's usually not ideal as you want to run your code and test your ch
 
 4. Pull Request
 - Now you can request for the original repository to accept your changes - that's called a pull request on GitHub. The maintainer of the repository can review your work and decide if it's okay to merge.
+- On your forked repository's page, at the top bar you can see how you have differed from the base repository. Click on `Pull request` to create one.
 
-    <!-- TODO: ![GitHub Pull Request]() -->
+    ![GitHub Pull request](img/github_pr.png)
+
+- You'll be shown a comparison of your changes
+
+    ![GitHub Pull request](img/github_pr_compare.png)
+
+- Leave a meaningful title and comment to help the core maintainers understand what you're trying to do.
+
+    ![GitHub Pull request](img/github_pr_title.png)
+
+- And viola you've created a PR. 
 
 ## The regular way
+
+Use this way when you want to edit files on your machine instead of on github.com.
+
+This is useful for when you want to run code locally and/or edit multiple files.
 
 1. Fork
 - This is the same as the easy way
 
 2. Clone the project onto your machine
-- You can do this step in 2 ways
+- You're downloading the repository into your machine. It will exist on your machine as a folder, and within it lies a .git folder (if you can't see it, enable view for Hidden files), which indicates that this is a git repository.
+- Now for some terms:
+    - **remote repository**: this is the version of the project that exists on github.com
+    - **local repository**: this is the project that exists on your machine.
+- At the moment you cloned the remote to your local, your local repo and the remote repo are exactly the same. As you start making changes, your local will start to differ the remote - your local will be "ahead". Similiarly if you never do anything, but someone else starts to update the remote repo, then your local will be "behind".
+- You can clone the repo in 2 ways
 
     **2a. Visual Studio Code**
     - Copy the url of your forked repository.
@@ -86,9 +106,9 @@ For code, that's usually not ideal as you want to run your code and test your ch
 
     - You will be prompted to enter a URL - insert the link of your forked repo.
 
-        <!-- TODO ![VS Code Enter URL]() -->
+        ![VS Input URL](img/github_input_url.png)
 
-    - There is now a folder called Malaya on your machine
+    - You will be prompted to select a parent folder.
 
     **2b. Terminal/Command Line**
     - Copy the url of your forked repository.
@@ -99,8 +119,6 @@ For code, that's usually not ideal as you want to run your code and test your ch
         ```sh
         git clone https://github.com/huseinzol05/Malaya
         ```
-        
-    - There should now be a folder called `Malaya` on your machine
 
 3. Change the file/files
 
@@ -189,8 +207,37 @@ For code, that's usually not ideal as you want to run your code and test your ch
     
 
 7. Pull Request
-- This is the same as the easy way
+- Go back to github.com
+- From here on out, it is the same as the easy way
 
+## Conflict!!
+
+When many people are working on a repository, you're going to get different versions of the file at the same time.
+
+Sometimes the file differences are straight forward, in which case git will help you to resolve it naturally.
+
+Other times, git doesn't know what to do! So it is up to you as a contributor to resolve it.
+
+![Github Conflict](img/github_conflict.png)
+
+The syntax shown is like this:
+
+```js
+<<<<<<< master
+// this current changes
+var breakfastTitle = 'nasi-lemak'; 
+=======
+// this is incoming changes
+var breakfastLabel = 'roti-canai';
+>>>>>>> master
+
+```
+
+You can resolve the conflict in both GitHub and VS Code.
+
+VS Code helps you to resolve in one-click.
+
+![Github Conflict](img/github_conflict_resolve_vs_code.png)
 
 ---
 
