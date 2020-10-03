@@ -90,7 +90,12 @@ This is useful for when you want to run code locally and/or edit multiple files.
 - This is the same as the easy way
 
 2. Clone the project onto your machine
-- You can do this step in 2 ways
+- You're downloading the repository into your machine. It will exist on your machine as a folder, and within it lies a .git folder (if you can't see it, enable view for Hidden files), which indicates that this is a git repository.
+- Now for some terms:
+    - **remote repository**: this is the version of the project that exists on github.com
+    - **local repository**: this is the project that exists on your machine.
+- At the moment you cloned the remote to your local, your local repo and the remote repo are exactly the same. As you start making changes, your local will start to differ the remote - your local will be "ahead". Similiarly if you never do anything, but someone else starts to update the remote repo, then your local will be "behind".
+- You can clone the repo in 2 ways
 
     **2a. Visual Studio Code**
     - Copy the url of your forked repository.
@@ -101,9 +106,9 @@ This is useful for when you want to run code locally and/or edit multiple files.
 
     - You will be prompted to enter a URL - insert the link of your forked repo.
 
-        <!-- TODO ![VS Code Enter URL]() -->
+        ![VS Input URL](img/github_input_url.png)
 
-    - There is now a folder called Malaya on your machine
+    - You will be prompted to select a parent folder.
 
     **2b. Terminal/Command Line**
     - Copy the url of your forked repository.
@@ -114,8 +119,6 @@ This is useful for when you want to run code locally and/or edit multiple files.
         ```sh
         git clone https://github.com/huseinzol05/Malaya
         ```
-        
-    - There should now be a folder called `Malaya` on your machine
 
 3. Change the file/files
 
