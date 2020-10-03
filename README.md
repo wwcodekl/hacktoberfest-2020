@@ -41,21 +41,6 @@ Have you found a project you like? Nice! Now it is time to make stuff happen.
 fork, clone, branch, staging, pull request
 -->
 
-## The easy way
-1. Fork
-2. Change the file
-3. Pull Request
-
-## The regular way
-1. Fork
-2. Create a branch
-3. Clone to local
-4. Change the file/files
-5. Add
-6. Commit
-7. Push
-8. Pull Request
-
 # Go forth!
 
 You're Hacktoberfest-ready now! Go make things happen, learn stuff, and have fun! The world of open source awaits ✨
