@@ -234,18 +234,6 @@ Other times, git doesn't know what to do! So it is up to you as a contributor to
 
 ![Github Conflict](img/github_conflict.png)
 
-The syntax shown is like this:
-
-```js
-<<<<<<< master
-// these are current changes
-var breakfastTitle = 'nasi-lemak'; 
-=======
-// these are incoming changes
-var breakfastLabel = 'roti-canai';
->>>>>>> master
-
-```
 
 You can resolve the conflict in both GitHub and VS Code.
 
@@ -285,6 +273,7 @@ Copy and paste this line and change the content as necessary
 - [Healthcare ASEAN](https://github.com/DataKind-SG/healthcare_ASEAN)
 - [The IO Foundation - Project Lockdown](https://github.com/TheIOFoundation/ProjectLockdown)
 - [69 Beginner Friendly Projects](https://miguendes.me/hacktoberfest-69-beginner-friendly-projects-you-can-contribute-to-ckfnnrnjv00140ks1423kh7qp)
+- [Popit Relationship](https://github.com/Sinar/popit_relationship)
 ---
 
 ## Resources
