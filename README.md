@@ -174,9 +174,17 @@ For code, that's usually not ideal as you want to run your code and test your ch
     ![VS Code Push](img/vscode_push.png)
 
     **6b. Terminal/Command Line**
-    - Push 
+    - Check which branch you're on
     ```sh
-
+    git branch --show-current
+    ```
+    - Check how many commits you are ahead of your remote branch (eg. if your branch is `master`)
+    ```sh
+    git log origin/master..master
+    ```
+    - Push your changes
+    ```sh
+    git push origin master
     ```
     
 
