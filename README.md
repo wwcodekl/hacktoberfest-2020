@@ -66,10 +66,25 @@ For code, that's usually not ideal as you want to run your code and test your ch
 
 4. Pull Request
 - Now you can request for the original repository to accept your changes - that's called a pull request on GitHub. The maintainer of the repository can review your work and decide if it's okay to merge.
+- On your forked repository's page, at the top bar you can see how you have differed from the base repository. Click on `Pull request` to create one.
 
-    <!-- TODO: ![GitHub Pull Request]() -->
+    ![GitHub Pull request](img/github_pr.png)
+
+- You'll be shown a comparison of your changes
+
+    ![GitHub Pull request](img/github_pr_compare.png)
+
+- Leave a meaningful title and comment to help the core maintainers understand what you're trying to do.
+
+    ![GitHub Pull request](img/github_pr_title.png)
+
+- And viola you've created a PR. 
 
 ## The regular way
+
+Use this way when you want to edit files on your machine instead of on github.com.
+
+This is useful for when you want to run code locally and/or edit multiple files.
 
 1. Fork
 - This is the same as the easy way
@@ -189,8 +204,37 @@ For code, that's usually not ideal as you want to run your code and test your ch
     
 
 7. Pull Request
-- This is the same as the easy way
+- Go back to github.com
+- From here on out, it is the same as the easy way
 
+## Conflict!!
+
+When many people are working on a repository, you're going to get different versions of the file at the same time.
+
+Sometimes the file differences are straight forward, in which case git will help you to resolve it naturally.
+
+Other times, git doesn't know what to do! So it is up to you as a contributor to resolve it.
+
+![Github Conflict](img/github_conflict.png)
+
+The syntax shown is like this:
+
+```js
+<<<<<<< master
+// this current changes
+var breakfastTitle = 'nasi-lemak'; 
+=======
+// this is incoming changes
+var breakfastLabel = 'roti-canai';
+>>>>>>> master
+
+```
+
+You can resolve the conflict in both GitHub and VS Code.
+
+VS Code helps you to resolve in one-click.
+
+![Github Conflict](img/github_conflict_resolve_vs_code.png)
 
 ---
 
