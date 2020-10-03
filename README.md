@@ -282,7 +282,8 @@ Copy and paste this line and change the content as necessary
 - [insert title here](insert link here) - insert description of the project
 -->
 - [Malaya](https://github.com/huseinzol05/Malaya) -  a Natural-Language-Toolkit library for bahasa Malaysia, powered by Deep Learning Tensorflow
-- [Healthcare ASEAN]((https://github.com/DataKind-SG/healthcare_ASEAN))
+- [Healthcare ASEAN](https://github.com/DataKind-SG/healthcare_ASEAN)
+- [The IO Foundation - Project Lockdown](https://github.com/TheIOFoundation/ProjectLockdown)
 - [69 Beginner Friendly Projects](https://miguendes.me/hacktoberfest-69-beginner-friendly-projects-you-can-contribute-to-ckfnnrnjv00140ks1423kh7qp)
 ---
 
